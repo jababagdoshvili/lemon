@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>LemonTours</title>
+  <link rel="shortcut icon"  href="images/favicon.png">
+  <link rel="stylesheet" href="owl.carousel.min.css">
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+
+  <div id="contact_container">
+    <header>
+      <div class="logo_area">
+        <a href="index.html"><img src="images/logo.png" alt=""></a>
+      </div>
+      <div class="main_nav">
+      <nav>
+        <ul>
+          <li><a href="index.html">მთავარი</a></li>
+          <li><a href="">ტურები</a></li>
+          <li><a href="">სასტუმროები</a></li>
+          <li><a href="">გაქირავება</a></li>
+          <li><a href="blog.html">ბლოგი</a></li>
+          <li><a href="contact.html">კონტაქტი</a></li>
+        </ul>
+      </nav>
+      <a href=""><img src="images/search.svg" alt=""></a>
+      </div>
+    </header>
+    <div class="hotels_intro_text">
+      <h3>სასტუმროები</h3>
+    </div>
+    <div class="bottom_line">
+      <img src="images/middle.png" alt="">
+    </div>
+  </div>
+
+  <div class="hotels_container">
+    <div class="tour_search_wrapper">
+    <div class="tour_search_form">
+        <div class="one_fourth themeborder">
+            <!-- <input id="keyword" name="keyword" type="text" autocomplete="off" placeholder="მიმართულება"> -->
+            <select id="sort_by" name="sort_by">
+                          <option value="date">მიმართულებები</option>
+                          <option value="price_low">იაპონია</option>
+                          <option value="price_high">იაპონია</option>
+                          <option value="name">იაპონია</option>
+                          <option value="popular">იაპონია</option>
+                          <option value="review">იაპონია</option>
+                      </select>
+                      <span class="ti-exchange-vertical">
+                        <img src="images/location.svg" alt="">  
+                      </span>
+          </div>
+          <div class="one_fourth themeborder">
+                    <!-- <select id="month" name="month">
+              <option value="">თარიღი</option>
+                          <option value="january">January</option>
+                          <option value="february">February</option>
+                          <option value="march">March</option>
+                          <option value="april">April</option>
+                          <option value="may">May</option>
+                          <option value="june">June</option>
+                          <option value="july">July</option>
+                          <option value="august">August</option>
+                          <option value="september">September</option>
+                          <option value="october">October</option>
+                          <option value="november">November</option>
+                          <option value="december">December</option>
+                      </select> -->
+                      <label for="from">საიდან</label>
+                      <input type="text" id="from" name="from">
+                      <label for="to">სადამდე</label>
+                      <input type="text" id="to" name="to">
+            <span class="ti-calendar">
+              <img src="images/calendar.svg" alt="">  
+            </span>
+          </div>
+          <div class="one_fourth themeborder">
+                    <select id="sort_by" name="sort_by">
+                          <option value="date">ტურისტების რაოდენობა</option>
+                          <option value="price_low">2</option>
+                          <option value="price_high">4</option>
+                          <option value="name">6</option>
+                          <option value="popular">8</option>
+                          <option value="review">10</option>
+                      </select>
+            <span class="ti-exchange-vertical">
+              <img src="images/location.svg" alt="">  
+            </span>
+          </div>
+          <div class="one_fourth last themeborder">
+            <input id="tour_search_btn" type="submit" class="button" value="ძებნა">
+          </div>
+          </div>
+      </div>
+
+    <div class="all_hotel">
+    <div class="hotel_element">
+      <a href="tour.html"><div class="hotel_e_img">
+          <img src="images/hotel2.jpg" alt="">
+          <div class="hotel_price">
+            <span>5,000ლ</span>
+          </div>
+        </div></a>
+        <div class="hotel_e_info">
+          <h3>იტალიის მთები</h3>
+          <span>მთის ტური,იტალია</span>
+          <div class="hotel_e_details">
+            <span><img src="images/location.svg" alt="">იტალია</span>
+            <span><img src="images/calendar.svg" alt="">5 დღე</span>
+          </div>
+        </div>
+    </div>
+    <div class="hotel_element">
+      <a href="tour.html"><div class="hotel_e_img">
+          <img src="images/hotel1.jpg" alt="">
+          <div class="hotel_price">
+            <span>5,000ლ</span>
+          </div>
+        </div></a>
+        <div class="hotel_e_info">
+          <h3>იტალიის მთები</h3>
+          <span>მთის ტური,იტალია</span>
+          <div class="hotel_e_details">
+            <span><img src="images/location.svg" alt="">იტალია</span>
+            <span><img src="images/calendar.svg" alt="">5 დღე</span>
+          </div>
+        </div>
+    </div>
+    <div class="hotel_element">
+      <a href="tour.html"><div class="hotel_e_img">
+          <img src="images/hotel.jpg" alt="">
+          <div class="hotel_price">
+            <span>5,000ლ</span>
+          </div>
+        </div></a>
+        <div class="hotel_e_info">
+          <h3>იტალიის მთები</h3>
+          <span>მთის ტური,იტალია</span>
+          <div class="hotel_e_details">
+            <span><img src="images/location.svg" alt="">იტალია</span>
+            <span><img src="images/calendar.svg" alt="">5 დღე</span>
+          </div>
+        </div>
+    </div>
+    <div class="hotel_element">
+      <a href="tour.html"><div class="hotel_e_img">
+          <img src="images/hotel2.jpg" alt="">
+          <div class="hotel_price">
+            <span>5,000ლ</span>
+          </div>
+        </div></a>
+        <div class="hotel_e_info">
+          <h3>იტალიის მთები</h3>
+          <span>მთის ტური,იტალია</span>
+          <div class="hotel_e_details">
+            <span><img src="images/location.svg" alt="">იტალია</span>
+            <span><img src="images/calendar.svg" alt="">5 დღე</span>
+          </div>
+        </div>
+    </div>
+    <div class="hotel_element">
+      <a href="tour.html"><div class="hotel_e_img">
+          <img src="images/hotel1.jpg" alt="">
+          <div class="hotel_price">
+            <span>5,000ლ</span>
+          </div>
+        </div></a>
+        <div class="hotel_e_info">
+          <h3>იტალიის მთები</h3>
+          <span>მთის ტური,იტალია</span>
+          <div class="hotel_e_details">
+            <span><img src="images/location.svg" alt="">იტალია</span>
+            <span><img src="images/calendar.svg" alt="">5 დღე</span>
+          </div>
+        </div>
+    </div>
+    <div class="hotel_element">
+      <a href="tour.html"><div class="hotel_e_img">
+          <img src="images/hotel2.jpg" alt="">
+          <div class="hotel_price">
+            <span>5,000ლ</span>
+          </div>
+        </div></a>
+        <div class="hotel_e_info">
+          <h3>იტალიის მთები</h3>
+          <span>მთის ტური,იტალია</span>
+          <div class="hotel_e_details">
+            <span><img src="images/location.svg" alt="">იტალია</span>
+            <span><img src="images/calendar.svg" alt="">5 დღე</span>
+          </div>
+        </div>
+    </div>
+    <div class="hotel_element">
+      <a href="tour.html"><div class="hotel_e_img">
+          <img src="images/tours1.jpeg" alt="">
+          <div class="hotel_price">
+            <span>5,000ლ</span>
+          </div>
+        </div></a>
+        <div class="hotel_e_info">
+          <h3>იტალიის მთები</h3>
+          <span>მთის ტური,იტალია</span>
+          <div class="hotel_e_details">
+            <span><img src="images/location.svg" alt="">იტალია</span>
+            <span><img src="images/calendar.svg" alt="">5 დღე</span>
+          </div>
+        </div>
+    </div>
+    <div class="hotel_element">
+      <a href="tour.html"><div class="hotel_e_img">
+          <img src="images/hotel.jpg" alt="">
+          <div class="hotel_price">
+            <span>5,000ლ</span>
+          </div>
+        </div></a>
+        <div class="hotel_e_info">
+          <h3>იტალიის მთები</h3>
+          <span>მთის ტური,იტალია</span>
+          <div class="hotel_e_details">
+            <span><img src="images/location.svg" alt="">იტალია</span>
+            <span><img src="images/calendar.svg" alt="">5 დღე</span>
+          </div>
+        </div>
+    </div>
+    <div class="hotel_element">
+      <a href="tour.html"><div class="hotel_e_img">
+          <img src="images/hotel1.jpg" alt="">
+          <div class="hotel_price">
+            <span>5,000ლ</span>
+          </div>
+        </div></a>
+        <div class="hotel_e_info">
+          <h3>იტალიის მთები</h3>
+          <span>მთის ტური,იტალია</span>
+          <div class="hotel_e_details">
+            <span><img src="images/location.svg" alt="">იტალია</span>
+            <span><img src="images/calendar.svg" alt="">5 დღე</span>
+          </div>
+        </div>
+    </div>
+  </div>
+
+
+    </div>
+
+
+
+  <div class="container-fluid footer_fluid">
+  <div class="col-12 d-flex justify-content-center copyright_col">
+    <div class="copyright_box text-center">
+      <span>© 2019 LEMONTOURS, INC. ALL RIGHTS RESERVED</span>
+    </div>
+  </div>
+
+  <div class="container footer_container">
+    <div class="row">
+      <div class="col-md-3 col-sm-12 ftr_rule_col">
+        <div class="footer_mail_box">
+          <!-- <div class="footer_send_meil">
+            <input type="text" name="subs" placeholder="მეილი">
+            <button name="subscriber"></button>
+          </div> -->
+          <a href=""><img src="images/logo.png" alt=""></a>
+        </div>
+      </div>
+
+
+      <div class="col-md-6 col-sm-12 ftr_rule_col">
+        <div class="footer_cnt_box">
+          <a href="">წესები და პირობები</a>
+          <a href="about_use.html">კონტაქტი</a>
+        </div>
+      </div>
+
+
+      <div class="col-md-3 col-sm-12 ftr_rule_col footer_icons_col">
+        <div class="footer_icons">
+          <a href="https://www.facebook.com/" target="_blank"><img src="images/fb.png"></a>
+          <a href=""><img src="images/linkedin.svg"></a>
+          <!--<a href=""><img src="/nutrimax/assets/images/icons/google.png"></a>-->
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row justify-content-center footer_bot_row">
+      <div class="col-md-3 col-sm-12">
+        <div class="footer_address_box footer_address_left">
+          <span><img src="images/location.png" width="23"></span>
+          <span>ლ.ღოღობერიძის 67ბ</span>
+        </div>
+      </div>
+
+
+      <div class="col-md-3 col-sm-12">
+        <div class="footer_address_box footer_address_center">
+          <span><img src="images/email.png" width="23"></span>
+          <span>info@lemontours.ge</span>
+        </div>
+      </div>
+
+
+      <div class="col-md-3 col-sm-12">
+        <div class="footer_address_box footer_address_right">
+          <span><img src="images/phone.png" width="23"></span>
+          <span>ტელ: +995 579 35 83 53</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+ <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+  <script>
+      $( function() {
+        var dateFormat = "mm/dd/yy",
+          from = $( "#from" )
+            .datepicker({
+              defaultDate: "+1w",
+              changeMonth: true,
+              numberOfMonths: 1
+            })
+            .on( "change", function() {
+              to.datepicker( "option", "minDate", getDate( this ) );
+            }),
+          to = $( "#to" ).datepicker({
+            defaultDate: "+1w",
+            changeMonth: true,
+            numberOfMonths: 1
+          })
+          .on( "change", function() {
+            from.datepicker( "option", "maxDate", getDate( this ) );
+          });
+     
+        function getDate( element ) {
+          var date;
+          try {
+            date = $.datepicker.parseDate( dateFormat, element.value );
+          } catch( error ) {
+            date = null;
+          }
+     
+          return date;
+        }
+      } );
+      </script>
+
+
+
+
+</body>
+</html>

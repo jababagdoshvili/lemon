@@ -1,0 +1,61 @@
+@media only screen and (max-width: 1500px) {
+	.footer_mail_box > a >img {
+    	width: 230px;
+	}
+	.footer_fluid .footer_container .footer_icons {
+		max-width: 120px;
+	}
+	.footer_fluid .footer_container .footer_address_box span:last-child {
+		font-size: 12px;
+	}
+}
+@media only screen and (max-width: 1150px) {
+	.month_staties_main_col .month_stat_info_box .month_title_text h3 {
+		font-size: 15px;
+	}
+	.stat_info_box h3 {
+		font-size: 18px;
+	}
+	.stat_info_box a {
+		font-size: 15px;
+	}
+	.staties_main_col .stat_main_tittle h2 {
+		font-size: 20px;
+	}
+	.month_staties_main_col .month_news_tittle h2 {
+		font-size: 20px;
+	}
+	.blog_intro_text h3 {
+		font-size: 35px;
+	}
+	.news_tittle h2 {
+		font-size: 25px;
+	}
+}
+
+@media only screen and (max-width: 970px) {
+	.contact_container {
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+	.contact_block {
+		padding-left: 0;
+	}
+	.contact_block {
+	    max-width: 700px;
+	}
+	.form {
+		max-width: 610px;
+	}
+	.contact_map {
+		display: none;
+	}
+	.contact_block h3 {
+		text-align: center;
+	}
+}
+@media only screen and (max-width: 670px) {
+	.row .col-md-3 {
+		margin: 15px 0;
+	}
+}
